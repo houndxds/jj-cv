@@ -5,7 +5,7 @@ body, html {
   height: 100%;
   background-image: url(JJ-Background.png);
   background-repeat: round;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .main {
@@ -13,7 +13,8 @@ body, html {
   background-color: #f0f0f0;
   width: 50%;
   height: 100%;
-  box-shadow: 2px 2px 20px;
+  -webkit-box-shadow: 2px 2px 20px;
+          box-shadow: 2px 2px 20px;
 }
 
 .sidebar {
@@ -66,4 +67,13 @@ body, html {
 
 #S-text {
   font-size: 13px;
-}/*# sourceMappingURL=index.css.map */
+}
+
+.text-block-2 dd {
+  margin-top: 1rem;
+}
+
+.text-block-3 dd {
+  margin-top: 1rem;
+}
+/*# sourceMappingURL=index.css.map */
